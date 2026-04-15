@@ -1,0 +1,4 @@
+[12-Dec-2025 03:53:46 UTC] PHP Fatal error:  Uncaught Error: Class 'Dompdf\Renderer\AbstractRenderer' not found in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Renderer/Block.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Renderer/Block.php on line 19

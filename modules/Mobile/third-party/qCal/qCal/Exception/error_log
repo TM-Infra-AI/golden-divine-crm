@@ -1,0 +1,4 @@
+[12-Dec-2025 03:54:13 UTC] PHP Fatal error:  Uncaught Error: Class 'qCal_Exception' not found in /home/goldendivinecrmm/public_html/modules/Mobile/third-party/qCal/qCal/Exception/InvalidComponent.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/modules/Mobile/third-party/qCal/qCal/Exception/InvalidComponent.php on line 10

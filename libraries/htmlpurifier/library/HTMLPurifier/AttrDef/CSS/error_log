@@ -1,0 +1,4 @@
+[12-Dec-2025 03:53:45 UTC] PHP Fatal error:  Uncaught Error: Class 'HTMLPurifier_AttrDef_CSS_Number' not found in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/AlphaValue.php:3
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/AlphaValue.php on line 3

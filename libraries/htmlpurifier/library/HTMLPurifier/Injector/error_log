@@ -1,0 +1,4 @@
+[12-Dec-2025 03:54:00 UTC] PHP Fatal error:  Uncaught Error: Class 'HTMLPurifier_Injector' not found in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php on line 6

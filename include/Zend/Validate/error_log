@@ -1,0 +1,2 @@
+[12-Dec-2025 03:54:00 UTC] PHP Warning:  require_once(Zend/Validate/Abstract.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/include/Zend/Validate/Ip.php on line 25
+[12-Dec-2025 03:54:00 UTC] PHP Fatal error:  require_once(): Failed opening required 'Zend/Validate/Abstract.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/include/Zend/Validate/Ip.php on line 25

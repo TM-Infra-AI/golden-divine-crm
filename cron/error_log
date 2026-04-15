@@ -1,0 +1,11 @@
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SMTP has a deprecated constructor in /home/goldendivinecrmm/public_html/cron/class.smtp.php on line 24
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SMTP has a deprecated constructor in /home/goldendivinecrmm/public_html/cron/class.smtp.php on line 24
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 551
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 556
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 559
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 614
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 622
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/goldendivinecrmm/public_html/include/database/PearDatabase.php on line 655
+[14-Nov-2025 05:12:48 UTC] PHP Deprecated:  Methods with the same name as their class will not be constructors in a future version of PHP; SMTP has a deprecated constructor in /home/goldendivinecrmm/public_html/cron/class.smtp.php on line 24
+[14-Nov-2025 05:12:48 UTC] PHP Warning:  require_once(include/utils/CommonUtils.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/cron/send_mail.php on line 27
+[14-Nov-2025 05:12:48 UTC] PHP Fatal error:  require_once(): Failed opening required 'include/utils/CommonUtils.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/cron/send_mail.php on line 27

@@ -1,0 +1,2 @@
+[12-Dec-2025 03:53:55 UTC] PHP Warning:  require_once(Zend/Gdata/App/Extension.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/include/Zend/Gdata/App/Extension/Person.php on line 27
+[12-Dec-2025 03:53:55 UTC] PHP Fatal error:  require_once(): Failed opening required 'Zend/Gdata/App/Extension.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/include/Zend/Gdata/App/Extension/Person.php on line 27

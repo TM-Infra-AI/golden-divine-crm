@@ -1,0 +1,4 @@
+[12-Dec-2025 03:54:06 UTC] PHP Fatal error:  Uncaught Error: Class 'Vtiger_Index_View' not found in /home/goldendivinecrmm/public_html/modules/ExtensionStore/views/Listings.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/modules/ExtensionStore/views/Listings.php on line 11

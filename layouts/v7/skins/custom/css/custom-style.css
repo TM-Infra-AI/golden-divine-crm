@@ -1,0 +1,44 @@
+#addService{
+	display: none !important;
+}
+
+#tax-mode{
+	display: none !important;
+}
+
+#pre-tax{
+	display: none !important;
+}
+
+#group_tax_row{
+	display: none !important;
+}
+
+#tax-on-charges{
+	display: none !important;
+}
+
+#deducted-tax{
+	display: none !important;
+}
+
+.adjustment{
+	display: none !important;
+}
+.block.block_Recurring.Invoice.Information{
+	display: none !important;
+}
+[data-block="Recurring Invoice Information"] {
+    display: none;
+}
+div#ImagePOP .modal-dialog img.customImageBox {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-height:600px;
+	object-fit:contain;
+	object-position:center;
+}
+div#ImagePOP .modal-dialog {
+    width: 800px;
+}

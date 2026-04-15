@@ -1,0 +1,4 @@
+[12-Dec-2025 03:53:57 UTC] PHP Fatal error:  Uncaught Error: Class 'HTMLPurifier_AttrTransform' not found in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/AttrTransform/ImgSpace.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/libraries/htmlpurifier/library/HTMLPurifier/AttrTransform/ImgSpace.php on line 6

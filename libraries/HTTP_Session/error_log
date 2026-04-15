@@ -1,0 +1,2 @@
+[12-Dec-2025 03:53:47 UTC] PHP Deprecated:  Non-static method HTTP_Session::_init() should not be called statically in /home/goldendivinecrmm/public_html/libraries/HTTP_Session/Session.php on line 803
+[12-Dec-2025 03:53:47 UTC] PHP Deprecated:  Non-static method HTTP_Session::localName() should not be called statically in /home/goldendivinecrmm/public_html/libraries/HTTP_Session/Session.php on line 728

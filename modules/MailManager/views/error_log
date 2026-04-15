@@ -1,0 +1,10 @@
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(include/Webservices/Create.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 11
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(): Failed opening 'include/Webservices/Create.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 11
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(vtlib/Vtiger/Mailer.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 12
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(): Failed opening 'vtlib/Vtiger/Mailer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 12
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(vtlib/Vtiger/Version.php): failed to open stream: No such file or directory in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 13
+[12-Dec-2025 03:53:58 UTC] PHP Warning:  include_once(): Failed opening 'vtlib/Vtiger/Version.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 13
+[12-Dec-2025 03:53:58 UTC] PHP Fatal error:  Uncaught Error: Class 'MailManager_Abstract_View' not found in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php:15
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/modules/MailManager/views/Mail.php on line 15

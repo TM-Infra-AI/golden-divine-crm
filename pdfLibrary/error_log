@@ -1,0 +1,16 @@
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Dompdf.php on line 624
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Dompdf.php on line 645
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/lib/Cpdf.php on line 454
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/lib/Cpdf.php on line 461
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/lib/Cpdf.php on line 468
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/lib/Cpdf.php on line 475
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  "continue" targeting switch is equivalent to "break". Did you mean to use "continue 2"? in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Css/Stylesheet.php on line 1132
+[12-Dec-2025 03:53:53 UTC] PHP Warning:  file_get_contents() expects parameter 3 to be resource, int given in /home/goldendivinecrmm/public_html/pdfLibrary/pdf_generate.php on line 16
+[12-Dec-2025 03:53:53 UTC] PHP Fatal error:  Uncaught Dompdf\Exception: No block-level parent found.  Not good. in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Positioner/Inline.php:48
+Stack trace:
+#0 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(788): Dompdf\Positioner\Inline->position()
+#1 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/FrameReflower/Text.php(360): Dompdf\FrameDecorator\AbstractFrameDecorator->position()
+#2 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(801): Dompdf\FrameReflower\Text->reflow(NULL)
+#3 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/FrameReflower/Page.php(133): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#4 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/FrameDecorator/AbstractFrameDecorator.php(801): Dompdf\FrameReflower\Page->reflow(NULL)
+#5 /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Dompdf.php(834): Dompdf\FrameDecorator\AbstractFrameDecorator->reflo in /home/goldendivinecrmm/public_html/pdfLibrary/dompdf/src/Positioner/Inline.php on line 48

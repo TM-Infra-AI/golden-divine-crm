@@ -1,0 +1,4 @@
+[12-Dec-2025 03:53:59 UTC] PHP Fatal error:  Uncaught Error: Class 'Products_Module_Model' not found in /home/goldendivinecrmm/public_html/modules/Services/models/Module.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/goldendivinecrmm/public_html/modules/Services/models/Module.php on line 11
