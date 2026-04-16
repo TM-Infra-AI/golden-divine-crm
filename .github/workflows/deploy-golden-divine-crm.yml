@@ -22,7 +22,7 @@ jobs:
         run: |
           ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
 
-      - name: Deploy via SCP
+      - name: Deploy via Rsync (Fast Method)
         run: |
           # 1. Sabse pehle Ubuntu runner ke andar se faltu aur sensitive cheezein delete karo
           shopt -s dotglob
@@ -42,5 +42,5 @@ jobs:
           # Backups (zip aur sql) hatayein
           rm -rf *.zip *.sql
           
-          # 2. Ab jo bacha (asli safe website files), use cPanel ke public_html me bhej do
-          scp -v -q -r * ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/public_html/
+          # 2. Ab jo bacha (asli safe website files), use cPanel ke public_html me fast speed se bhej do
+          rsync -avz ./ ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/public_html/
