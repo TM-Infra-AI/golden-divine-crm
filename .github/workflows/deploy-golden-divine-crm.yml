@@ -1,0 +1,46 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup SSH agent
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Add server to known hosts
+        run: |
+          ssh-keyscan -H ${{ secrets.SSH_HOST }} >> ~/.ssh/known_hosts
+
+      - name: Deploy via SCP
+        run: |
+          # 1. Sabse pehle Ubuntu runner ke andar se faltu aur sensitive cheezein delete karo
+          shopt -s dotglob
+          
+          # Git folders hatayein
+          rm -rf .git .github
+          
+          # Configuration files hatayein
+          rm -rf config*.php connection.php
+          
+          # User data aur temporary folders hatayein
+          rm -rf storage/ user_privileges/ logs/ cache/
+          
+          # Server settings aur error logs hatayein
+          rm -rf error_log .htaccess php.ini .user.ini
+          
+          # Backups (zip aur sql) hatayein
+          rm -rf *.zip *.sql
+          
+          # 2. Ab jo bacha (asli safe website files), use cPanel ke public_html me bhej do
+          scp -v -q -r * ${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}:~/public_html/
